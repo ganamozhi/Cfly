@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>canfly.in</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  	<script src="assets/js/jquery.min.js"></script>
+  	<script src="assets/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-select.min.css"> 
+  	<link rel="stylesheet" type="text/css" href="assets/css/datepicker.css">
+  	<script type="text/javascript" src="assets/js/datepicker.js"></script>
+  	<script src="assets/js/bootstrap-select.min.js"></script>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!--<script type="text/javascript" src="assets/js/main.js"></script>-->
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.4.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="wrap">
+		<!--<div class="loader">
+			<div class="blink">
+			</div>
+		</div>-->
+		<div class="border-top">			
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3">
+					<a href="index.html">
+						<div class="logo-steps">							
+						</div>
+					</a>
+				</div>
+				<div class="col-md-6 top-select">
+					<h3>
+						<select class="selectpicker bs-select-hidden" name="No. of passengers" title="No. of passengers" data-live-search="true">
+							<option class="bs-title-option" value>No. of passengers</option>
+							<option value="1">1 passenger</option>
+							<option value="2">2 passengers</option>
+							<option value="3">3 passengers</option>
+							<option value="4">4 passengers</option>
+							<option value="5">5 passengers</option>
+							<option value="6">6 passengers</option>
+							<option value="7">7 passengers</option>
+							<option value="8">8 passengers</option>
+							<option value="9">9 passengers</option>
+							<option value="10">10 passengers</option>
+						</select>
+						<span class="top-letter">are flying from</span>
+						<select class="selectpicker bs-select-hidden" name="Departure" title="Departure" data-live-search="true">
+							<option class="bs-title-option" value>Departure</option>
+							<option value="Chennai">Chennai</option>
+							<option value="Bangalore">Bangalore</option>
+							<option value="Delhi">Delhi</option>
+							<option value="Coimbatore">Coimbatore</option>
+							<option value="Goa">Goa</option>
+						</select>
+						<br> 
+						<span class="top-letter">to</span>
+						<select class="selectpicker bs-select-hidden" name="Destination" title="Destination" data-live-search="true">
+							<option class="bs-title-option" value>Destination</option>
+							<option value="Chennai">Chennai</option>
+							<option value="Bangalore">Bangalore</option>
+							<option value="Delhi">Delhi</option>
+							<option value="Coimbatore">Coimbatore</option>
+							<option value="Goa">Goa</option>
+						</select>
+						<span class="top-letter">on</span>							
+					</h3>
+				</div>
+				<div class="col-md-3">
+					<ul class="header-top">
+						<li><a href="#">Contact</a></li>
+						<li><a href="#" style="border-left: 7px solid #252525;">About Us</a></li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+		<div class="container-fluid steps-bar">
+			<div class="container">
+				<div class="row steps-align">
+					<div class="col-md-3 col-sm-3 col-xs-3">
+						<span class="step-number">1</span><br>Travel Details
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-3 current-page">
+						<span class="step-number">2</span><br>Preferences
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-3">
+						<span class="step-number">3</span><br>Bid
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-3">
+						<span class="step-number">4</span><br>Ticket
+					</div>
+				</div>
+			</div>			
+		</div>
+		<div class="container-fluid form-part">
+			<div class="container form-align">
+				<div class="col-md-12">
+					<div class="col-md-10 col-md-offset-1 margin-top">
+						<form method="POST" accept-charset="utf-8">
+							<div class="form-group">
+								<h3>Passenger Details</h3>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="fname1" placeholder="First Name">
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="lname1" placeholder="Last Name">
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<select class="selectpicker bs-select-hidden" name="row1" title="Please select Type">
+									<option class="bs-title-option" value="">Please select Type</option>
+									<option>Adult</option>
+									<option>Children</option>
+									</select>
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="age1" placeholder="Age">
+								</div>
+								<div class="clearfix"></div>
+								<br>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="fname2" placeholder="First Name">
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="lname2" placeholder="Last Name">
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<select class="selectpicker bs-select-hidden" name="row2" title="Please select Type">
+									<option class="bs-title-option" value="">Please select Type</option>
+									<option>Adult</option>
+									<option>Children</option>
+									</select>
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="age2" placeholder="Age">
+								</div>
+								<div class="clearfix"></div>
+								<br>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="fname3" placeholder="First Name">
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="lname3" placeholder="Last Name">
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<select class="selectpicker bs-select-hidden" name="row3" title="Please select Type">
+									<option class="bs-title-option" value="">Please select Type</option>
+									<option>Adult</option>
+									<option>Children</option>
+									</select>
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="age3" placeholder="Age">
+								</div>
+								<div class="clearfix"></div>
+								<br>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="fname4" placeholder="First Name">
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="lname4" placeholder="Last Name">
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<select class="selectpicker bs-select-hidden" name="row4" title="Please select Type">
+									<option class="bs-title-option" value="">Please select Type</option>
+									<option>Adult</option>
+									<option>Children</option>
+									</select>
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="age4" placeholder="Age">
+								</div>
+								<div class="clearfix"></div>
+								<br>
+								<!--<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="fname5" placeholder="First Name">
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="lname5" placeholder="Last Name">
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<select class="selectpicker bs-select-hidden" name="row5" title="Please select Type">
+									<option class="bs-title-option" value="">Please select Type</option>
+									<option>Adult</option>
+									<option>Children</option>
+									</select>
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="age5" placeholder="Age">
+								</div>
+								<div class="clearfix"></div>
+								<br>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="fname6" placeholder="First Name">
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="lname6" placeholder="Last Name">
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<select class="selectpicker bs-select-hidden" name="row6" title="Please select Type">
+									<option class="bs-title-option" value="">Please select Type</option>
+									<option>Adult</option>
+									<option>Children</option>
+									</select>
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="age6" placeholder="Age">
+								</div>
+								<div class="clearfix"></div>
+								<br>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="fname7" placeholder="First Name">
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="lname7" placeholder="Last Name">
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<select class="selectpicker bs-select-hidden" name="row7" title="Please select Type">
+									<option class="bs-title-option" value="">Please select Type</option>
+									<option>Adult</option>
+									<option>Children</option>
+									</select>
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="age7" placeholder="Age">
+								</div>
+								<div class="clearfix"></div>
+								<br>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="fname8" placeholder="First Name">
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="lname8" placeholder="Last Name">
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<select class="selectpicker bs-select-hidden" name="row8" title="Please select Type">
+									<option class="bs-title-option" value="">Please select Type</option>
+									<option>Adult</option>
+									<option>Children</option>
+									</select>
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="age8" placeholder="Age">
+								</div>
+								<div class="clearfix"></div>
+								<br>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="fname9" placeholder="First Name">
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="lname9" placeholder="Last Name">
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<select class="selectpicker bs-select-hidden" name="row9" title="Please select Type">
+									<option class="bs-title-option" value="">Please select Type</option>
+									<option>Adult</option>
+									<option>Children</option>
+									</select>
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="age9" placeholder="Age">
+								</div>
+								<div class="clearfix"></div>
+								<br>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="fname10" placeholder="First Name">
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="lname10" placeholder="Last Name">
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<select class="selectpicker bs-select-hidden" name="row10" title="Please select Type">
+									<option class="bs-title-option" value="">Please select Type</option>
+									<option>Adult</option>
+									<option>Children</option>
+									</select>
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">
+									<input class="form-control" type="text" name="age10" placeholder="Age">
+								</div>
+								<div class="clearfix"></div>
+								<br>-->
+							</div>
+							<div class="form-group">
+								<h3>Choice of time zone</h3>
+								<label class="checkbox-inline"><input type="checkbox" value="Midnight to 6am" name="travel-time">Midnight to 6am</label>
+								<label class="checkbox-inline"><input type="checkbox" value="6am to Noon" name="travel-time">6am to Noon</label>
+								<label class="checkbox-inline"><input type="checkbox" value="Noon to 6pm" name="travel-time">Noon to 6pm</label>
+								<label class="checkbox-inline"><input type="checkbox" value="6pm to Midnight" name="travel-time">6pm to Midnight</label>
+							</div>
+							<div class="form-border">							
+							</div>
+							<div class="form-group">
+								<h3>Choice of travel plan</h3>
+								<label class="radio-inline"><input type="radio" name="travel-paln" value="One Way">One Way</label>
+								<label class="radio-inline"><input type="radio" name="travel-paln" value="Round Trip">Round Trip</label>
+							</div>
+							<div class="form-border">							
+							</div>
+							<div class="form-group">
+								<h3>Stoppage preferences</h3>
+								<label class="checkbox-inline"><input type="checkbox" value="No Stops" name="stoppage">No Stops</label>
+								<label class="checkbox-inline"><input type="checkbox" value="One Stop" name="stoppage">One Stop</label>
+								<label class="checkbox-inline"><input type="checkbox" value="Two Stops" name="stoppage">Two Stops</label>
+								<label class="checkbox-inline"><input type="checkbox" value="Any" name="stoppage">Any</label>
+							</div>
+							<div class="form-border">							
+							</div>
+							<div class="form-group">
+								<h3>Luggage</h3>
+								<label class="radio-inline"><input type="radio" name="luggage" value="No luggage">No luggage</label>
+								<label class="radio-inline"><input type="radio" name="luggage" value="Hand Baggage Only">Hand Baggage Only</label>
+								<label class="radio-inline"><input type="radio" name="luggage" value="upto 15KG">upto 15KG</label>
+							</div>
+							<div class="form-border">							
+							</div>
+							<div class="form-group">
+								<div class="col-md-8 col-md-offset-2 space-top">
+									<div class="col-md-1">
+										<i class="fa fa-inr fa-3x"></i>
+									</div>
+									<div class="col-md-11">
+										<input class="form-control" type="text" name="bidamount" placeholder="Enter Your Bid Amount">
+									</div>											
+								</div>
+							</div>
+							<div class="clearfix"></div>
+							<div class="form-border">							
+							</div>
+							<div class="btn-bottom">
+								<a href="step3.html" class="btn home-btn" value="START BIDING" type="submit">START BIDING</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+</body>
+</html>

@@ -1,0 +1,314 @@
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	background-image: url('home-bg.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+	line-height: 1.42857143; 
+}
+.wrap
+{	
+	
+}
+.loader
+{
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	z-index: 99;
+}
+.blink
+{
+	background-image: url("preloader.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #ffffff;
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+}
+.border-top
+{
+	border-top: 15px solid #ffac19;
+}
+.header-top
+{
+	list-style: none;
+	margin-top:30px;
+}
+.header-top li
+{
+	float: right;
+}
+.header-top li a
+{
+	color: #ffac19;
+	font-weight: 700;
+	border: 7px solid #252525;
+	border-left: 0;
+	padding: 15px;
+}
+.logo-section
+{
+
+}
+.logo-img
+{
+	height: 100px;
+	width: 240px;
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+.banner-box
+{
+	border-top: 7px solid #ffac19;
+	padding: 20px 20px;
+	background-color: rgba(235, 235, 235, 0.5);
+	text-align: center;	
+}
+.banner-box h1
+{
+	padding-bottom: 10px;
+}
+.banner-inner-box
+{
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background: #ffffff;
+	min-height: 50px;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 10px;
+}
+.home-btn
+{
+	font-size: 18px;
+	font-weight: 800;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    background-color: #ffac19;
+    border-color: #eea236;
+    color: #ffffff;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.date
+{
+	width: 220px;
+	margin: 0 auto;
+}
+
+
+
+/*Page two  Starts*/
+.logo-steps
+{
+	background: url("http://canfly.in/assets/img/logo.png")no-repeat;
+    height: 80px;
+    width: 180px;
+    background-size: 90%;
+    margin: 30px;
+}
+.top-select
+{
+	text-align: center;
+}
+.top-select button.btn.dropdown-toggle.btn-default 
+{
+    border: 0;
+    color: #fff;
+    font-size: 0.75em;
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+}
+.age-align
+{
+	margin-left:-7px;
+}
+.top-letter
+{
+	color: #ffffff;
+}
+.steps-bar
+{
+	background: #ffac19;
+    padding: 10px 0;
+}
+.steps-align
+{
+	color: #a9751f;
+    font-weight: 600;
+    text-align: center;
+}
+.step-number
+{
+	color: #ffd59f;
+    font-size: 30px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    padding: 0px 12px;
+    background: #FFAC19;
+}
+.current-page
+{
+	color: #000000;
+}
+.form-part
+{
+	background: #ffffff;
+}
+.margin-top
+{
+	margin-top: 15px;
+}
+.form-align
+{
+	text-align: center;
+}
+.form-border
+{
+	margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #eee;
+}
+.space-top
+{
+	margin-top: 20px;
+	text-align: right;
+}
+.btn-bottom
+{
+	margin-bottom: 15px;
+}
+/*Page two  Ends*/
+
+/*Page three  Starts*/
+.middle-content
+{
+	padding-top: 15px;
+	text-align: center;
+}
+.align-left
+{
+	text-align: left;
+	float: left;
+}
+.align-right
+{
+	text-align: right;
+	float: right;
+}
+.text-align-right
+{
+	text-align: right;
+}
+.arrow
+{
+	background: url("book-arrow.png")no-repeat center;
+}
+.divider
+{
+	border:1px solid #898989;
+	margin: 10px 0;
+}
+.detail-box
+{
+	margin: 50px 0;
+	border:2px solid #000000;
+}
+.detail-box h3
+{
+	color: #000000;
+	border-bottom: 2px solid #000000;
+	text-align: center;
+	padding: 10px 0;
+	background: #ffab1a;
+	font-weight: 700;
+	margin: 0;
+}
+.passenger-box
+{
+	margin: 0;
+}
+.bid-amt
+{
+	text-align: center;
+	margin-top: 20px;
+}
+.bid-amt h2
+{
+	margin-bottom: 10px;
+}
+.payment-part
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.conditions
+{
+	text-align: left;
+}
+.confirm-bid
+{
+	padding-bottom: 200px;
+}
+/*Page three Ends*/
+
+/*Page four starts*/
+.ticket-content
+{
+	background: #ffffff;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 150px;
+}
+.logo-ticket
+{
+	margin: 0 auto;
+	text-align: center;
+}
+.ticket-detail-box
+{
+	margin: 50px 0;
+	border:2px solid #000000;
+}
+.ticket-detail-box h3
+{
+	color: #000000;
+	border-bottom: 2px solid #000000;
+	text-align: center;
+	padding: 10px 0;
+	background: #ffab1a;
+	font-weight: 700;
+	margin: 0;
+}
+.ticket-passenger-box
+{
+	border:2px solid #000000;
+	margin-bottom: 50px;
+}
+.ticket-passenger-box h3
+{
+	color: #000000;
+	border-bottom: 2px solid #000000;
+	text-align: center;
+	padding: 10px 0;
+	background: #ffab1a;
+	font-weight: 700;
+	margin: 0;
+}
+/*Page four Ends*/

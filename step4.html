@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>canfly.in</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  	<script src="assets/js/jquery.min.js"></script>
+  	<script src="assets/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-select.min.css"> 
+  	<link rel="stylesheet" type="text/css" href="assets/css/datepicker.css">
+  	<script type="text/javascript" src="assets/js/datepicker.js"></script>
+  	<script src="assets/js/bootstrap-select.min.js"></script>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!--<script type="text/javascript" src="assets/js/main.js"></script>-->
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.4.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="wrap">
+		<!--<div class="loader">
+			<div class="blink">
+			</div>
+		</div>-->
+		<div class="border-top">			
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3">
+					<a href="index.html">
+						<div class="logo-steps">							
+						</div>
+					</a>
+				</div>
+				<div class="col-md-6 top-select">
+					<h3>
+						<select class="selectpicker bs-select-hidden" name="No. of passengers" title="No. of passengers" data-live-search="true">
+							<option class="bs-title-option" value>No. of passengers</option>
+							<option value="1">1 passenger</option>
+							<option value="2">2 passengers</option>
+							<option value="3">3 passengers</option>
+							<option value="4">4 passengers</option>
+							<option value="5">5 passengers</option>
+							<option value="6">6 passengers</option>
+							<option value="7">7 passengers</option>
+							<option value="8">8 passengers</option>
+							<option value="9">9 passengers</option>
+							<option value="10">10 passengers</option>
+						</select>
+						<span class="top-letter">are flying from</span>
+						<select class="selectpicker bs-select-hidden" name="Departure" title="Departure" data-live-search="true">
+							<option class="bs-title-option" value>Departure</option>
+							<option value="Chennai">Chennai</option>
+							<option value="Bangalore">Bangalore</option>
+							<option value="Delhi">Delhi</option>
+							<option value="Coimbatore">Coimbatore</option>
+							<option value="Goa">Goa</option>
+						</select>
+						<br> 
+						<span class="top-letter">to</span>
+						<select class="selectpicker bs-select-hidden" name="Destination" title="Destination" data-live-search="true">
+							<option class="bs-title-option" value>Destination</option>
+							<option value="Chennai">Chennai</option>
+							<option value="Bangalore">Bangalore</option>
+							<option value="Delhi">Delhi</option>
+							<option value="Coimbatore">Coimbatore</option>
+							<option value="Goa">Goa</option>
+						</select>
+						<span class="top-letter">on</span>							
+					</h3>
+				</div>
+				<div class="col-md-3">
+					<ul class="header-top">
+						<li><a href="#">Contact</a></li>
+						<li><a href="#" style="border-left: 7px solid #252525;">About Us</a></li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+		<div class="container-fluid steps-bar">
+			<div class="container">
+				<div class="row steps-align">
+					<div class="col-md-3 col-sm-3 col-xs-3">
+						<span class="step-number">1</span><br>Travel Details
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-3">
+						<span class="step-number">2</span><br>Preferences
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-3">
+						<span class="step-number">3</span><br>Bid
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-3 current-page">
+						<span class="step-number">4</span><br>Ticket
+					</div>
+				</div>
+			</div>			
+		</div>
+		<div class="container-fluid ticket-content">
+			<div class="container">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="logo-ticket">
+						<img src="assets/images/logo-ticket.jpg" class="img-responsive">
+					</div>
+					<div class="ticket-detail-box">
+						<h3>TICKET DETAILS</h3>
+						<div class="col-md-4 text-align-right">
+						<h4>Departure:</h4>
+						</div>
+						<div class="col-md-8">
+						<h4></h4>
+						</div>
+						<div class="clearfix">
+						</div>
+						<div class="col-md-4 text-align-right">
+						<h4>Destination:</h4>
+						</div>
+						<div class="col-md-8">
+						<h4></h4>
+						</div>
+						<div class="clearfix">
+						</div>
+						<div class="col-md-4 text-align-right">
+						<h4>Date of travel:</h4>
+						</div>
+						<div class="col-md-8">
+						<h4></h4>
+						</div>
+						<div class="clearfix">
+						</div>
+						<div class="col-md-4 text-align-right">
+						<h4>Total No of passengers:</h4>
+						</div>
+						<div class="col-md-8">
+						<h4></h4>
+						</div>
+						<div class="clearfix">
+						</div>
+						<div class="col-md-4 text-align-right">
+						<h4>Time Zone:</h4>
+						</div>
+						<div class="col-md-8">
+						<h4></h4>
+						</div>
+						<div class="clearfix">
+						</div>
+						<div class="col-md-4 text-align-right">
+						<h4>Travel Plan:</h4>
+						</div>
+						<div class="col-md-8">
+						<h4></h4>
+						</div>
+						<div class="clearfix">
+						</div>
+						<div class="col-md-4 text-align-right">
+						<h4>Stoppage Preferences:</h4>
+						</div>
+						<div class="col-md-8">
+						<h4></h4>
+						</div>
+						<div class="clearfix">
+						</div>
+						<div class="col-md-4 text-align-right">
+						<h4>Luggage</h4>
+						</div>
+						<div class="col-md-8">
+						<h4></h4>
+						</div>
+						<div class="clearfix">
+						</div>
+						<div class="col-md-4 text-align-right">
+						<h4>Return Date:</h4>
+						</div>
+						<div class="col-md-8">
+						<h4></h4>
+						</div>
+						<div class="clearfix">
+						</div>
+						<div class="col-md-4 text-align-right">
+						<h4>Ticket Price:</h4>
+						</div>
+						<div class="col-md-8">
+						<h4></h4>
+						</div>
+						<div class="clearfix">
+						</div>
+					</div>
+					<div class="ticket-passenger-box">
+						<h3>PASSENGER DETAILS</h3>
+						<div class="col-md-4 text-align-right">
+						<h4></h4>
+						</div>
+						<div class="col-md-8">
+						<h4></h4>
+						</div>
+						<div class="clearfix">
+						</div><div class="col-md-4 text-align-right">
+						<h4></h4>
+						</div>
+						<div class="col-md-8">
+						<h4></h4>
+						</div>
+						<div class="clearfix">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

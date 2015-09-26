@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>canfly.in</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  	<script src="assets/js/jquery.min.js"></script>
+  	<script src="assets/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-select.min.css"> 
+  	<link rel="stylesheet" type="text/css" href="assets/css/datepicker.css">
+  	<script type="text/javascript" src="assets/js/datepicker.js"></script>
+  	<script src="assets/js/bootstrap-select.min.js"></script>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!--<script type="text/javascript" src="assets/js/main.js"></script>-->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600' rel='stylesheet' type='text/css'>	
+	<!--<script>
+	$(window).load(function() { 
+	$('.blink').fadeOut();
+	$('.loader').delay(350).fadeOut('slow');
+	$('body').delay(350).css({'overflow':'visible'});
+		});
+	</script>-->
+</head>
+<body>
+	<div class="wrap">
+		<!--<div class="loader">
+			<div class="blink">
+			</div>
+		</div>-->
+		<div class="border-top">			
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4 col-md-offset-8">
+					<ul class="header-top">
+						<li><a href="#">Contact</a></li>
+						<li><a href="#" style="border-left: 7px solid #252525;">About Us</a></li>
+					</ul>
+					<div class="clearfix"></div>					
+				</div>
+			</div>
+			<div class="clearfix"></div>			
+		</div>
+		<div class="container">
+			<div class="logo-section">
+				<a href="index.html">
+					<div class="logo-img">
+						<img src="http://canfly.in/assets/img/logo.png">
+					</div>
+				</a>
+				<div class="banner-box">
+					<h1>Let us know your travel plan.</h1>
+					<form method="POST" accept-charset="utf-8">
+						<div class="banner-inner-box">
+							<div class="row">
+								<div class="col-md-3 col-sm-6 col-xs-12" style="border-right: 1px solid #ccc;">
+									<select class="selectpicker bs-select-hidden" name="Departure" title="Departure" data-live-search="true">
+										<option class="bs-title-option" value>Departure</option>
+										<option value="Chennai">Chennai</option>
+										<option value="Bangalore">Bangalore</option>
+										<option value="Delhi">Delhi</option>
+										<option value="Coimbatore">Coimbatore</option>
+										<option value="Goa">Goa</option>
+									</select>
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12" style="border-right: 1px solid #ccc;">
+									<select class="selectpicker bs-select-hidden" name="Destination" title="Destination" data-live-search="true">
+										<option class="bs-title-option" value>Destination</option>
+										<option value="Chennai">Chennai</option>
+										<option value="Bangalore">Bangalore</option>
+										<option value="Delhi">Delhi</option>
+										<option value="Coimbatore">Coimbatore</option>
+										<option value="Goa">Goa</option>
+									</select>
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12">				
+									<div class="input-group date" id="datetimepicker1" title="Date of travel">
+									  	<input type="text" id="datepicker" class="datepicker form-control" placeholder="Date of travel" data-date-format="mm/dd/yyyy" data-provide="datepicker"/>
+					                    <span class="input-group-addon">
+					                       	<span class="glyphicon glyphicon-calendar">
+					                    	</span>
+					                    </span>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6 col-xs-12" style="border-left: 1px solid #ccc;">
+									<select class="selectpicker bs-select-hidden" name="No. of passengers" title="No. of passengers" data-live-search="true">
+										<option class="bs-title-option" value>No. of passengers</option>
+										<option value="1">1 passenger</option>
+										<option value="2">2 passengers</option>
+										<option value="3">3 passengers</option>
+										<option value="4">4 passengers</option>
+										<option value="5">5 passengers</option>
+										<option value="6">6 passengers</option>
+										<option value="7">7 passengers</option>
+										<option value="8">8 passengers</option>
+										<option value="9">9 passengers</option>
+										<option value="10">10 passengers</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<a href="step2.html" class="btn home-btn" value="LETS FLY" type="submit">LETS FLY</a>
+					</form>
+				</div>
+			</div>
+		</div>		
+	</div>
+</body>
+</html>

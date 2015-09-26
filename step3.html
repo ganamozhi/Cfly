@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>canfly.in</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  	<script src="assets/js/jquery.min.js"></script>
+  	<script src="assets/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-select.min.css"> 
+  	<link rel="stylesheet" type="text/css" href="assets/css/datepicker.css">
+  	<script type="text/javascript" src="assets/js/datepicker.js"></script>
+  	<script src="assets/js/bootstrap-select.min.js"></script>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!--<script type="text/javascript" src="assets/js/main.js"></script>-->
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.4.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="wrap">
+		<!--<div class="loader">
+			<div class="blink">
+			</div>
+		</div>-->
+		<div class="border-top">			
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3">
+					<a href="index.html">
+						<div class="logo-steps">							
+						</div>
+					</a>
+				</div>
+				<div class="col-md-6 top-select">
+					<h3>
+						<select class="selectpicker bs-select-hidden" name="No. of passengers" title="No. of passengers" data-live-search="true">
+							<option class="bs-title-option" value>No. of passengers</option>
+							<option value="1">1 passenger</option>
+							<option value="2">2 passengers</option>
+							<option value="3">3 passengers</option>
+							<option value="4">4 passengers</option>
+							<option value="5">5 passengers</option>
+							<option value="6">6 passengers</option>
+							<option value="7">7 passengers</option>
+							<option value="8">8 passengers</option>
+							<option value="9">9 passengers</option>
+							<option value="10">10 passengers</option>
+						</select>
+						<span class="top-letter">are flying from</span>
+						<select class="selectpicker bs-select-hidden" name="Departure" title="Departure" data-live-search="true">
+							<option class="bs-title-option" value>Departure</option>
+							<option value="Chennai">Chennai</option>
+							<option value="Bangalore">Bangalore</option>
+							<option value="Delhi">Delhi</option>
+							<option value="Coimbatore">Coimbatore</option>
+							<option value="Goa">Goa</option>
+						</select>
+						<br> 
+						<span class="top-letter">to</span>
+						<select class="selectpicker bs-select-hidden" name="Destination" title="Destination" data-live-search="true">
+							<option class="bs-title-option" value>Destination</option>
+							<option value="Chennai">Chennai</option>
+							<option value="Bangalore">Bangalore</option>
+							<option value="Delhi">Delhi</option>
+							<option value="Coimbatore">Coimbatore</option>
+							<option value="Goa">Goa</option>
+						</select>
+						<span class="top-letter">on</span>							
+					</h3>
+				</div>
+				<div class="col-md-3">
+					<ul class="header-top">
+						<li><a href="#">Contact</a></li>
+						<li><a href="#" style="border-left: 7px solid #252525;">About Us</a></li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+		<div class="container-fluid steps-bar">
+			<div class="container">
+				<div class="row steps-align">
+					<div class="col-md-3 col-sm-3 col-xs-3">
+						<span class="step-number">1</span><br>Travel Details
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-3">
+						<span class="step-number">2</span><br>Preferences
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-3 current-page">
+						<span class="step-number">3</span><br>Bid
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-3">
+						<span class="step-number">4</span><br>Ticket
+					</div>
+				</div>
+			</div>			
+		</div>
+		<div class="container-fluid form-part middle-content">
+			<div class="container">
+				<div class="col-md-12 col-sm-12 col-xs-12 arrow">
+					<div class="col-md-4 align-left">
+						<img src="assets/images/chennai.png" class="img-responsive">
+					</div>
+					<div class="col-md-4">
+					</div>
+					<div class="col-md-4 align-right">
+						<img src="assets/images/delhi.png" class="img-responsive align-right">
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="divider"></div>
+				<div class="col-md-8 col-md-offset-2">
+					<div class="detail-box">
+						<h3>YOUR DETAILS</h3>
+						<div class="col-md-4 text-align-right">
+						<h4>Departure:</h4>
+						</div>
+						<div class="col-md-8">
+						<h4></h4>
+						</div>
+						<div class="clearfix">
+						</div>
+						<div class="col-md-4 text-align-right">
+						<h4>Destination:</h4>
+						</div>
+						<div class="col-md-8">
+						<h4></h4>
+						</div>
+						<div class="clearfix">
+						</div>
+						<div class="col-md-4 text-align-right">
+						<h4>Date of travel:</h4>
+						</div>
+						<div class="col-md-8">
+						<h4></h4>
+						</div>
+						<div class="clearfix">
+						</div>
+						<div class="col-md-4 text-align-right">
+						<h4>Total No of passengers:</h4>
+						</div>
+						<div class="col-md-8">
+						<h4></h4>
+						</div>
+						<div class="clearfix">
+						</div>
+						<div class="col-md-4 text-align-right">
+						<h4>Time Zone:</h4>
+						</div>
+						<div class="col-md-8">
+						<h4></h4>
+						</div>
+						<div class="clearfix">
+						</div>
+						<div class="col-md-4 text-align-right">
+						<h4>Travel Plan:</h4>
+						</div>
+						<div class="col-md-8">
+						<h4></h4>
+						</div>
+						<div class="clearfix">
+						</div>
+						<div class="col-md-4 text-align-right">
+						<h4>Stoppage Preferences:</h4>
+						</div>
+						<div class="col-md-8">
+						<h4></h4>
+						</div>
+						<div class="clearfix">
+						</div>
+						<div class="col-md-4 text-align-right">
+						<h4>Luggage</h4>
+						</div>
+						<div class="col-md-8">
+						<h4></h4>
+						</div>
+						<div class="clearfix">
+						</div>
+						<div class="col-md-4 text-align-right">
+						<h4>Return Date:</h4>
+						</div>
+						<div class="col-md-8">
+						<h4></h4>
+						</div>
+						<div class="clearfix">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8 col-md-offset-2">
+					<div class="detail-box passenger-box">
+						<h3>PASSENGER DETAILS</h3>
+						<table class="table table-bordered">
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Details</th>
+									<th>Age</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+							</tbody>							
+						</table>
+					</div>
+				</div>
+				<div class="col-md-8 col-md-offset-2">
+					<div class="detail-box">
+						<h3>CONFIRM YOUR BID</h3>
+						<div class="bid-amt">
+						<h2>RS:</h2>
+						</div>
+					</div>					
+				</div>
+				<div class="clearfix"></div>
+				<div class="divider"></div>
+				<div class="col-md-8 col-md-offset-2 payment-part">
+					<img src="assets/images/payment-method.png" class="img-responsive" width="100%">
+				</div>
+				<div class="col-md-8 col-md-offset-2 conditions">
+					<ul>
+						<li>Your airline tickets are non-refundable, non-transferable and non-changeable.</li>
+						<li>Your tickets will be round-trip, coach class tickets issued on one of CanFly's partner airlines. You must fly on the flights assigned to you. Upgrades and standbys are not available. If you do not take your outbound flight, the airlines will automatically cancel the remainder of your reservation. If any part of the ticket is unused it has no value after ticketed departure time.</li>
+						<li>Name Your Own Price tickets issued through CanFly are not eligible for frequent flyer miles. CanFly customers are protected by the same airline regulations extended to all passengers, including protection against overbookings and baggage loss.</li>
+						<li>If we find an airline that accepts your price, we'll immediately purchase your tickets using the payment information you provided.</li>
+						<li>You will be issued electronic tickets. Remember to bring a valid government-issued photo ID with you to check-in</li>
+					</ul>
+				</div>
+				<div class="confirm-bid">
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" value="accepted">
+							I agree to Honor Payment by Default if the Bidding is Successfully
+						</label>
+					</div>
+					<a href="step4.html" class="btn btn-warning btn-sm">BID</a>
+				</div>
+			</div>			
+		</div>
+	</div>
+</body>
+</html>
